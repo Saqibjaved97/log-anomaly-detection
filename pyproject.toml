@@ -1,0 +1,9 @@
+[project]
+name = "loganomaly"
+version = "0.1.0"
+description = "Unsupervised anomaly detection on application logs"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
