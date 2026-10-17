@@ -1,0 +1,5 @@
+model,precision,recall,f1,roc_auc,pr_auc,incidents_caught,incidents_total,false_alarms_per_day
+Isolation Forest,0.5,0.059,0.105,0.78,0.34,2,14,2.0
+Local Outlier Factor,0.875,0.618,0.724,0.911,0.815,10,14,3.0
+One-Class SVM,0.373,0.912,0.53,0.922,0.813,14,14,52.0
+Isolation Forest + new-message rule,0.929,0.765,0.839,0.938,0.847,11,14,2.0
